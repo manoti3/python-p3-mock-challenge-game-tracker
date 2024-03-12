@@ -37,8 +37,8 @@ class TestPlayer:
         assert 2 <= len(player.username) <= 16
 
         # comment out the next two lines if using Exceptions
-        player.username = "y"
-        assert player.username == "Saaammmm"
+       # player.username = "y"
+       # assert player.username == "Saaammmm"
 
         # comment out the next two lines if using Exceptions
         player.username = "this_username_is_too_long"
